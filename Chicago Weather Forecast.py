@@ -9,3 +9,4 @@ url = BASE_URL + "appid=" + API_KEY + "&q=" + CITY
 
 response = requests.get(url).json()
 
+print(response)
